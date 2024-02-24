@@ -1,0 +1,19 @@
+/* pages/chat.js */
+.message {
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+  }
+  
+  /* Style for messages sent by the current user */
+  .me {
+    background-color: lightblue;
+    align-self: flex-end; /* Align messages to the right */
+  }
+  
+  /* Style for messages sent by other users */
+  .other {
+    background-color: lightgreen;
+    align-self: flex-start; /* Align messages to the left */
+  }
+  
